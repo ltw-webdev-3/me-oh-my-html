@@ -1,0 +1,37 @@
+repo: 'me-oh-my-html'
+canvasCourse: 'web-dev-3'
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - html
+
+html:
+  - path: 'index.html'
+    has:
+      - 'main'
+      - 'h1'
+      - 'h2'
+      - 'p'
+      - 'strong'
+      - 'time'
+      - 'br'
+      - 'address'
+      - 'a[href]'
+      - 'ol > li'
+      - 'dt'
+      - 'dd'
+      - 'blockquote'
+      - 'blockquote > footer'
+      - 'blockquote > p'
+      - 'blockquote > footer cite'
+    search:
+      - 'Essen Spiel'
+      - 'Oct\. 26\–28\, 2017'
+      - '€480'
+      - 'Lacerda\, Vital'
+      - 'Rosenberg\, Uwe'
+      - 'Madeira'
+      - 'Klaudia Bader'
+      - 'Eho Tashiro'
+      - 'Norbertstrasse 2\, 45131 Essen'
